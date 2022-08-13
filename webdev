@@ -1,0 +1,47 @@
+HTML/CSS
+
+
+- Image : <img src="" alt="" width= ""/>
+
+- Table : 
+<table>
+<thead> 
+<th>Colonne1</th>
+<th> Colonne2</th>     
+</thead>
+
+<tbody>         //the component or ro<s
+<tr>
+<td>   Pacific ocean       </td>        //the data cells
+<td>   Mediteranean ocean       </td>
+</tr>
+</tbody>
+<table>
+
+
+- Form 
+
+<form>
+<input type="text" placeholder = "fullname" name = "name">           // type can also be password to blur the input
+<input type="radio" placeholder = "green" name = "color"> Green    // radio type = tickable boxes
+
+<input type = "Country" list ="countries name = "Country">       // the list name and the id of the datalist is the same
+<datalist id = "countries">
+  <Option value ="Afghanistan">
+  <Option value ="Morroco">
+  <Option value ="France">
+
+<input type = "submit">
+</form>
+
+
+
+
+- CSS
+
+<h1 style = "color : blue: text-align : center"></h1> or put it in <head> <style> h1 { color: blue;  text-align: center} </style></head>
+
+To link a css file to an html page : <head> <link rel = "stylesheet" href = "styles.css"> </head>    // href is the name of the css file 
+We can style a div 
+
+Padding : space between an element and the edges of the div/ Margin : space between the div and other elements
