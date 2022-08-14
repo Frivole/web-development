@@ -1,1 +1,3 @@
+n = input ("name:")
 
+pd.read_csv() turns a csv into a table in python/ plt.plot() turns data into a line plot/ plt.show() displays plot ina new window
