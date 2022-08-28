@@ -1,3 +1,5 @@
 n = input ("name:")
 
 pd.read_csv() turns a csv into a table in python/ plt.plot() turns data into a line plot/ plt.show() displays plot ina new window
+
+create an array : store_one = np.array([2, 5, 8, 3, 4, 10, 15, 5])
