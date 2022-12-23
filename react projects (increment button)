@@ -1,0 +1,41 @@
+import React, { useState } from 'react';
+
+function Counter({ initialCount }) {
+  const [count, setCount] = useState(initialCount); // Déclare une variable d'état "count" et une fonction "setCount" pour la mettre à jour
+
+  return (
+    <div>
+      <button
+        style={{
+          fontSize: "16px",
+          padding: "8px",
+          margin: "4px",
+          backgroundColor: "lightblue"
+        }}
+        onClick={() => setCount(count + 1)}
+      >
+        Increment
+      </button>
+      <button
+        style={{
+          fontSize: "16px",
+          padding: "8px",
+          margin: "4px",
+          backgroundColor: "lightgreen"
+        }}
+        onClick={() => setCount(count - 1)}
+      >
+        Decrement
+      </button>
+      <p>The count is {count}.</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Counter initialCount={0} />
+  );
+}
+
+export default App;
